@@ -1,0 +1,62 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+	user-select: none;
+}
+.appbar{
+	background: #299941;
+	padding: 15px;
+	color: white;
+	font-weight: bolder;
+}
+.todo{
+	margin: 5px 4px;
+	padding: 4px;
+	border: none;
+	outline: none;
+	border-radius: 2px;
+	border-bottom: 2px solid #299941;
+	transition: 300ms;
+	font-size: 15px;
+}
+.todo::placeholder{
+	color: #d0d1d0;
+}
+.btn{
+	background: #2c2c2c;
+	color: white;
+	border: none;
+	outline: none;
+	width: 100px;
+	height: 23px;
+	font-weight: bolder;
+	box-shadow: 0 3px 5px gray;
+}
+.btn:active{
+	box-shadow: 0 0 10px gray;
+}
+.items{
+	margin: 10px;
+	padding: 5px 0;
+	text-transform: capitalize;
+	font-weight: 700;
+}
+.delete{
+	margin-left: 10px;
+	background: red;
+	color: white;
+	border: none;
+	outline: none;
+	width: 30px;
+	height: 23px;
+	font-weight: bolder;
+	box-shadow: 0 3px 5px gray;
+	position: absolute;
+	right: 10px;
+}
+.appbar i{
+	font-size: 16px;
+	position: absolute;
+	right: 16px;
+}
