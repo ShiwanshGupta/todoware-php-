@@ -11,7 +11,7 @@
 
 	<div class="appbody">
 
-		<input type="text" id="input" class="todo" autocomplete="off" placeholder="Type your todo...">
+		<input type="text" id="input" class="todo" autocomplete="off" placeholder="Type your todo..." onkeypress="keypress(event)">
 		<input type="submit" class="add btn" id="add" value="Add Item">
 
 		<div class="item" id="item"></div>
@@ -28,6 +28,13 @@
 		var val = storage.getItem(number);
 		var dltbtn = document.getElementById("dltbtn");
 		var numArr = [];
+		
+		function keypress(event) {
+			var x = event.charCode || event.keyCode;
+			if (x == 13 || x == 13) {  // o is 111, O is 79
+				alert("You pressed the 'O' key!");
+			}
+		}
 
 		add.onclick = function(){
 
