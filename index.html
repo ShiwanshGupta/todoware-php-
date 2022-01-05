@@ -29,10 +29,11 @@
 		var dltbtn = document.getElementById("dltbtn");
 		var numArr = [];
 		
-		var x = event.charCode;
-		if(x == 13){
-			add.click();
-		}
+		input.onkeydown = function(event){
+			var x = event.charCode || event.keyCode;
+			if (x == 13 || x == 13) { // o is 111, O is 79
+			  alert("You pressed the 'O' key!");
+			}
 
 		add.onclick = function(){
 
