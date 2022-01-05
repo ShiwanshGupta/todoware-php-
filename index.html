@@ -28,6 +28,10 @@
 		var val = storage.getItem(number);
 		var dltbtn = document.getElementById("dltbtn");
 		var numArr = [];
+		
+		if(event.charCode == 13){
+			add.click()
+		}
 
 		add.onclick = function(){
 
