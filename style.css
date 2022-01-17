@@ -20,7 +20,7 @@
 	border: none;
 	outline: none;
 	border-radius: 2px;
-	border-bottom: 2px solid #0984e3;
+	border-bottom: 2px solid var(--theme);
 	transition: 300ms;
 	font-size: 15px;
 }
