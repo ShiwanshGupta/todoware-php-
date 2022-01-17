@@ -1,3 +1,7 @@
+:root{
+	--theme: #0984e3;
+}
+
 *{
 	margin: 0;
 	padding: 0;
@@ -5,7 +9,7 @@
 	user-select: none;
 }
 .appbar{
-	background: #299941;
+	background: var(--theme);
 	padding: 15px;
 	color: white;
 	font-weight: bolder;
