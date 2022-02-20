@@ -8,6 +8,9 @@
 </head>
 <body>
 	<div class="appbar">Lister</div>
+        <?php 
+          echo "hi";
+        ?>
 
 	<div class="appbody">
 
